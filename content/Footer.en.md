@@ -1,12 +1,5 @@
 ---
-copyright: "Copyright © Start Bootstrap 2020"
 social: {
-  twitter: "#",
-  facebook: "#",
-  medium: "#"
+  linkedin: "leonie-kohlhepp-9118b5160/",
 }
-privacyText: "Privacy Policy"
-privacyHref: "#!"
-termsText: "Terms of Use"
-termsHref: "#!"
 ---
