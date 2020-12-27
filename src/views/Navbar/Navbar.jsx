@@ -44,7 +44,7 @@ const MyNavbar = ({ anchors, frontmatter, extraItems }) => {
       expanded={expanded}
     >
       <Container>
-        <Navbar.Brand className="cursor-pointer" onClick={handleBrandClick}>
+        <Navbar.Brand className="cursor-pointer text-uppercase" onClick={handleBrandClick}>
           {brand}
         </Navbar.Brand>
         <Navbar.Toggle onClick={toggleMenu} aria-label="Toggle navigation">

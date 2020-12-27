@@ -2,7 +2,7 @@
 .navbar-root {
   background-color: $gray-900;
   .navbar-toggler {
-    font-size: 12px;
+    font-size: 14px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
@@ -12,8 +12,9 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: $primary !important;
-    @include script-font;
+    color: white !important;
+    font-weight: 600;
+    @include heading-font;
     &.active,
     &:active,
     &:focus,

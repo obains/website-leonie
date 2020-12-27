@@ -27,6 +27,7 @@ const Contact = ({ className, frontmatter }) => {
           <a className="d-block" href={`tel:${telephone}`}>
             {telephone}
           </a>
+          <br />
         </Col>
         <Col lg={4} className="mr-auto text-center">
           <Icon iconName="EnvelopIcon" size="3x" className="text-muted mb-3" />
