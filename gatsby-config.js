@@ -54,8 +54,8 @@ module.exports = {
         includePaths: [path.resolve(__dirname, "src/style")],
       },
     },
-    {
-      resolve: "gatsby-plugin-prefetch-google-fonts",
+    /*{
+      resolve: "gatsby-plugin-google-fonts",
       options: {
         fonts: [
           {
@@ -74,6 +74,19 @@ module.exports = {
             variants: [400, 100, 300, 700],
           },
         ],
+        display: "swap"
+      },
+    },*/
+    {
+      resolve: "gatsby-plugin-google-fonts",
+      options: {
+        fonts: [
+          "Montserrat\:400,700",
+          "Kaushan+Script",
+          "Droid+Serif\:400,700,400italic,700italic",
+          "Roboto+Slab\:400, 100, 300, 700",
+        ],
+        display: "swap"
       },
     },
     {
